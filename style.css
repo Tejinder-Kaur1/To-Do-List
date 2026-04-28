@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aliceblue;
+}
+.container {
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  height: 55vh;
+  /* height: auto;  */
+  /* jagah de according adjust hoyi jaayu jive jive content add kri jawage */
+  width: 35vw;
+  box-shadow: 4px 5px 6px;
+}
+.header {
+  text-align: center;
+  padding: 10px;
+  font-weight: 900;
+  border-bottom: 0.5px solid black;
+  margin-bottom: 10px;
+}
+.addTask {
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-bottom: 40px; */
+}
+input {
+  padding: 7px;
+  border-radius: 5px;
+}
+button {
+  background-color: rgb(80, 208, 255);
+  color: brown;
+  padding: 4px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+button:hover {
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px;
+}
+ul {
+  list-style: none;
+  /* padding: 10px; */
+}
+li {
+  width: 22em;
+  margin: 10px 40px 15px 40px;
+  /* margin-left: 40px;
+  margin-right: 40px; */
+  display: flex; /* delete button insert krn lyi */
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 8px;
+}
