@@ -7,6 +7,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  flex-direction: column;
   background-color: aliceblue;
 }
 .container {
@@ -60,4 +61,10 @@ li {
   border: 1px solid black;
   border-radius: 5px;
   padding: 8px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
 }

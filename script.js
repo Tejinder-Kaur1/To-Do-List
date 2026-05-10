@@ -1,8 +1,7 @@
 // let button = document.getElementsByTagName("button");
 // button.addEventListener("click", addTask);
 
-function addTask() 
-{
+function addTask() {
   const newTask = document.createElement("li");
   const taskList = document.getElementById("taskList");
   taskList.appendChild(newTask);
